@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zingy Bingo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Zingy Bingo</h1>
+  <div id="game-container">
+    <div id="letter-chute"></div>
+    <div id="word-display">Word: <span id="current-word"></span></div>
+    <div id="score">Score: <span id="score-value">0</span></div>
+    <div id="lives">Lives: <span id="lives-value">3</span></div>
+    <button id="start-btn">Start Game</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
